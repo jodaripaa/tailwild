@@ -22,7 +22,7 @@ Construir y ejecutar con Docker (ejemplos para Windows cmd.exe)
 1) Desde el directorio del proyecto, construir imagen manualmente (opcional):
 
 ```cmd
-cd "c:\Users\Pc\Desktop\galindo hijueputa\tailwild"
+cd "c:\Users\Pc\Desktop\galindo\tailwild"
 docker build -t todo-app .
 ```
 
@@ -35,7 +35,7 @@ docker run --rm -p 3003:80 --name todo-app todo-app
 3) Usar docker-compose (recomendado):
 
 ```cmd
-cd "c:\Users\Pc\Desktop\galindo hijueputa\tailwild"
+cd "c:\Users\Pc\Desktop\galindo\tailwild"
 docker-compose up --build
 ```
 
